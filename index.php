@@ -10,6 +10,16 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
+        
+        <form method ="post" action="modulo/productoAgregar.php">
+            
+            <div><label>NOMBRE:</label><input type="test" name="nombre" ></div>
+             <div><label>TOTAL USD:</label><input type="test" name="totalusd" ></div>""                                  
+              <div><label>AÑO:</label><input type="test" name="anio" ></div>""                                                                                                    
+           <input type="submit">                                 
+            </form>
+        
+        
         <?php
         // put your code here
         ?>
